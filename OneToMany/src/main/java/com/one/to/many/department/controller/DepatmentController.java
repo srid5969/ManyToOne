@@ -15,6 +15,7 @@ import com.one.to.many.department.service.DepatmentService;
 @RestController
 @RequestMapping("/department")
 public class DepatmentController {
+	
 	@Autowired
 	private DepatmentService departmentService;
 
